@@ -39,6 +39,11 @@ p {
     line-height: 1.3em;
     text-align: left;
     width: 100%;
+    font-size: 18px;
+   }
+
+p:first-line{
+    font-weight: bold;
 }
 
 .image {
