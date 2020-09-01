@@ -12,6 +12,7 @@ body {
 .navigation li {
     font-weight: 100;
     letter-spacing: 2px;
+    padding: 10px 10px 10px 10px;
 }
 
 .navigation  li.current {
@@ -95,6 +96,8 @@ p {
     color: white;
     display: inline-block;
     text-decoration: none;
+    padding: 14px 14px 14px 14px;
+
 }
 
 .share a:hover {
