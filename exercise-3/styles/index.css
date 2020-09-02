@@ -1,6 +1,8 @@
 body {
     background-color: white;
     font-family: 'Raleway', sans-serif;
+    margin: auto;
+    padding: auto;
 }
 
 .navigation ul {
@@ -45,6 +47,11 @@ h1 {
 #main {
     padding: 40px;
     text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    height: 800px;
+    overflow: hidden;;
+    
 }
 
 h2 {
@@ -69,12 +76,13 @@ p {
     color: grey;
     font-size: 16px;
     line-height: 1.5em;
-    margin: 40px;
+    margin-top: 40px;
 }
 
 .pull-quote {
     width: 400px;
-    margin: auto;
+    margin:auto;
+    
 }
 
 .byline {
@@ -109,4 +117,8 @@ p {
     background: white;
     border: 1px solid red;
     color: red;
+}
+
+.global {
+    visibility: hidden;
 }
