@@ -1,8 +1,8 @@
 body {
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    margin: auto;
-    padding: auto;
+    margin: default;
+    padding: default;
 }
 
 .navigation ul {
@@ -50,7 +50,9 @@ h1 {
     margin: 0 auto;
     width: 500px;
     height: 800px;
-    overflow: hidden;;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overflow: -moz-scrollbars-none;
     
 }
 
